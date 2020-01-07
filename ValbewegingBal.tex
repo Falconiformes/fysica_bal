@@ -1,0 +1,156 @@
+\documentclass[•]{scrartcl}
+%% Alle benodigde pakketjes
+\input{Preamble_Article.tex}
+%
+\begin{document}
+%% Titel
+\input{Titel_Article_Fidon.tex}
+%
+\tableofcontents
+\newpage
+\section*{Inleiding}
+\label{sec:Inleiding} 
+\addcontentsline{toc}{section}{\nameref{sec:Inleiding}}
+In de Middeleeuwen waren kastelen essentieel voor de beheersing van het landbouwgrond. Het behouden van de kastelen was dus van een heel groot belang. Daarom bezaten kastelen allerlei verdedingswerktuigen. E\'{e}n van deze werktuigen is heet kokend olie. De heet kokende olie werd vanaf de muren van de kasteel op de belegers naar beneden gegooid. Hoeveel tijd zouden de belegers hebben om te ontsnappen van de olie? Beantwoording vereist een analyse van de valbeweging van de olie. Deze analyse is ook afleidbaar door de valbeweging van een ander object te onderzoeken.
+\par
+In deze proef werd de valbeweging van een bal geanalyseerd met behulp van een videometing en \textit{Coach7}. De beantwoording van de volgende vragen was beoogd:
+\begin{description}
+\item[Hoofdvraag] Wat voor type beweging is de valbeweging van de bal?
+\begin{description}
+\item[Deelvraag 1] Wat is het verband tussen de verplaatsing van de bal en de tijd?
+\item[Deelvraag 2] Wat is het verband tussen de snelheid van de bal en de tijd?
+\end{description}
+\end{description}
+%
+\section{Theorie}
+Op aarde is de gravitatieversnelling $g=\SI{9.81}{\meter\per\second}$. Een object die in een rechte beweging naar beneden valt, ondervindt ook luchtweerstand ($\vec{F_{l}}$). Volgens de 2\textsuperscript{de} wet van Newton is de netto kracht op een vallende object gelijk aan \cref{eq:Newton}:
+%% Newton equation
+\begin{equation}\label{eq:Newton}
+\vec{F_{\mathrm{netto}}}=\vec{F_{z}}+\vec{F_{l}} \rightarrow m\vec{a}=m\vec{g}+\vec{F_{l}}\mathrm{.}
+\end{equation}
+%%
+Als $\vec{F_{l}} \approx \SI{0}{\newton}$ dan geldt voor $\vec{a}$ bij benadering:
+%%
+\begin{equation*}
+\vec{a}\approx \vec{g}\mathrm{.}
+\end{equation*}
+%%
+In \cref{eq:1Integratie} wordt $a$ geïntegreerd naar de tijd ($t$) gemeten in secondes (\si{\second}).\footnote{Integreren is de inverse van differenteren, zoals delen de inverse is van vermenigvuldigen.} Deze integratie levert een vergelijking op van de snelheid $(v)$ in \si{\meter\per\second} als functie van $t$. Deze vergelijking beschrijft een liniear verband tussen $v$ en $t$. 
+%% Eerste integratie
+\begin{equation}\label{eq:1Integratie}
+v(t)=\int g dt= gt + v_i
+\end{equation}
+%%
+Wanneer \cref{eq:1Integratie} ge\"{i}ntegreerd wordt, wordt \eqref{eq:2Integratie} verkregen:
+%% Tweede integratie
+\begin{equation}\label{eq:2Integratie}
+y(t)=\int (gt + v_i)dt =\frac{1}{2}gt^2+v_{i}t+y_i\mathrm{.}
+\end{equation}
+%%
+\Cref{eq:2Integratie} beschrijft een functie tussen de eindhoogte $(y)$ in meter (\si{\meter}) en $t$. In de proef begint de valbeweging van de bal in rust. \Cref{eq:2Integratie} kan dus herleid worden tot:
+%%
+\begin{equation*}
+y(t)=\frac{1}{2}gt^2+y_i\mathrm{.}
+\end{equation*}
+%%
+Op basis van de bovengenoemde theorie waren de volgende hypotheses opgesteld, indien $\vec{F_{l}} \approx \SI{0}{\newton}$ gedurend de val:
+\begin{itemize}
+ \renewcommand{\labelitemi}{\scriptsize$\blacksquare$}
+\item De valbeweging is een eenparige versnelde beweging.
+\item Een kwadratische verband bestaat tussen $y$ en $t$.
+\item Een liniear verband bestaat tussen $v$ en $t$.
+\end{itemize}
+%
+\section{Methode}
+E\'{e}n individu hield een lichte voetbal vast op een hoogte $(y_i)$ van \SI{1.80}{\meter} in een windstille ruimte (\cref{fig:Valbeweging}). Deze hoogte werd gemeten met een meetlint met een \SI{+-1}{\centi\meter} precisie. Een andere individu nam de valbeweging op met een moderne smartphone. In verband met overschakeltijd van fotografie- naar opname-mode was de opname gestart voor de val. Dit deel van de opname en de stuiterbeweging aan het eind van de opname waren verwijderd met behulp van \textit{Windows Movie Maker}. De resulterende opname werd ingevoerd in \textit{Coach7}. Met behulp van de videometingcapaciteiten van \textit{Coach7} was $y$ en $v$ bepaald op \num{17} verschillende tijdstippen. De tijdsinterval was constant gehouden bij de \num{17} verschillende tijdstippen. 
+\input{figValbeweging.tex}
+%
+\newpage
+\section{Resultaten \& Discussie}
+\subsection{Resultaten}
+Bij de uitvoering van de beschreven methode was de data in \cref{tab:Kwadraat} verkregen. De data vertoonde een kwadratisch verband tussen $y$ en $t$.  Deze vondst was in overeenkomtst met de hypotheses.        
+De kwadratische verband tussen $y_f$ en $t$ wordt bevestigd en gevisualiseerd in \cref{fig:kwadraat}.
+\begin{figure}
+\centering
+\includegraphics[scale=1]{Grafiekvalbeweging.pdf}
+\captionbelowof{figure}{De grafiek met $y_f$ uitgezet tegen $t$ van het experiment en de theorie. Een kwadratische verband bestaat tussen de de verplaatsing en tijd.}
+\label{fig:kwadraat}
+\end{figure} 
+Verder was gebleken dat een linieare verband bestaat tussen $v$ en $t$. De linieare verband is weergeven in \cref{fig:liniear} . De richtingsco\"{e}ffici\"{e}nt, oftewel $\vec{a}$, wordt weergeven in \cref{eq:Acceleratie}:
+%%
+\begin{equation}\label{eq:Acceleratie}
+\vec{a}=\frac{\Delta \vec{v}}{\Delta t}=\frac{\SI{0}{\meter\per\second}-\SI{-6}{\meter\per\second}}{\SI{0}{\second}-\SI{0.6}{\second}}=\SI{-10}{\meter\per\second\squared}\mathrm{.}
+\end{equation}	
+%%
+\begin{figure}[t]
+\centering
+\includegraphics[scale=1]{v,t-grafiek.pdf}
+\captionbelowof{figure}{De grafiek met $v$ als functie van $t$. Een liniear verband bestaat tussen $v$ en $t$. De twee meetfouten wijken duidelijk af van de overige datapunten.}
+\label{fig:liniear}
+\end{figure}
+%%
+\subsection{Discussie}
+De gestelde hypotheses waren positief. De valbeweging was een eenparige versnelde beweging. Een kwadratische verband bestond tussen $y_f$ en $t$. Verder leverde de grafiek met $v$ uitgezet tegen $t$ een rechte op. De valbeweging van de lichte voetbal week echter af van de realiteit. De gevonden waarde voor $a$ was groter dan $g$. De percentuele fout tussen de gevonden en realistische waarde is weergeven in \cref{eq:RelatieveFout}:
+%%
+\begin{equation}\label{eq:RelatieveFout}
+\delta \, g=\frac{a-g}{g}\times 100= \frac{\SI{10}{\meter\per\second\squared}-\SI{9.81}{\meter\per\second\squared}}{\SI{9.81}{\meter\per\second\squared}}=\SI{1.9}{\percent}\mathrm{.}
+\end{equation}
+%%
+Een hogere $g$ zou betekenen dat een object sneller valt onder dezelfde omstandigheden in de ruimte waar de proef is afgenomen dan elders op de wereld. In \cref{fig:kwadraat} neemt $\frac{d^2y_f}{dt^2}$ toe bij latere tijdstippen. Dit is te verwijten aan het gebrek van stroboscopische capaciteit op de smartphone. Hierdoor was het beeld van de bewegende bal wazig op latere tijdstippen. Dit resulteerde in onnauwkeurigheid in de positie van het zwaartepunt van de bal. Als gevolg werd het zwaartepunt repeterend te laag gekozen op latere tijdstippen in \textit{Coach7}. Deze systematische fouten leiden tot een hogere $\frac{d^2y_f}{dt^2}$ en dus hogere $g$.
+%
+\section{Conclusie}
+Concluderend was de valbeweging van de bal geanalyseerd met een smartphone en de videometingcapaciteiten van \textit{Coach7}. De valbeweging was eenparig versneld met een kwadratisch verband tussen $y_f$ en $t$ en een liniear verband tussen $v$ en $t$. 
+\section{Reflectie}	
+We zijn tevreden met de resultaten van ons uitgevoerde onderzoek. Daarnaast zijn we trots op ons verslag. De gegevens zijn op een professionele manier in het verslag verwerkt met een mooie strakke lay-out. We zijn minder tevreden met de meetfouten die zijn gemaakt. Ondanks dat we theorie goed hebben toegepast. We hebben in deze PO geleerd om onze kennis in een praktische opdracht toe te passen, waardoor we de onderzoekverslagen hebben kunnen beantwoorden.
+\newpage
+\appendix
+\section{Tabellen} 
+\begin{center}
+\captionaboveof{table}{De \num{17} verschillende tijdstippen met daarbij horende hoogte en snelheid. De 13\textsuperscript{de} en 14\textsuperscript{de} meting, de grijs gekleurde cellen, bevatten een meetfout.}
+\begin{tabular}{*{4}{S[table-format=1.2]}}
+\toprule
+{Meting} & {$t$ (\si{\second})} & {$y_f$ (\si{\meter})} & {$v$ (\si{\meter\per\second})}\\
+\midrule
+1& 0	 & 1.77&-0.05 \\
+2& 0.03 & 1.76&-0.56 \\
+3 &0.06 & 1.73&-0.61 \\
+4 &0.10 & 1.72&-0.74 \\
+5 &0.13 & 1.68&-1.48 \\
+6 &0.16 & 1.62&-1.85 \\
+7 &0.20 & 1.56&-1.96 \\
+8 &0.23 & 1.49&-2.46 \\
+9 &0.26 & 1.40&-2.96 \\
+10 &0.30 & 1.29&-3.62 \\
+11 &0.33 & 1.15&-4.02 \\
+12 &0.36 & 1.02&\cellcolor{gray}-1.90 \\
+13 &0.40 & \cellcolor{gray}1.03&\cellcolor{gray}-2.38 \\
+14 &0.43 & 0.86&-4.66 \\
+15& 0.46 & 0.72&-4.84 \\
+16 &0.50 & 0.54&-5.58 \\
+17& 0.53 & 0.34&-5.79 \\
+\bottomrule
+\end{tabular}
+\label{tab:Kwadraat}   
+\end{center}
+%
+\newpage
+\section{Logboek}
+%\rowcolors{2}{gray!10!}{}
+\begin{center}
+  \captionaboveof{table}{Een logboek met de activiteit, week van uitvoering, tijdspendering en de uitvoerder.}
+\begin{tabular}[center]{*4c}
+\toprule
+Week van uitvoering & Tijd (\si{\hour})& Activiteit & Uitvoerder\\
+\midrule
+47 & n.v.t. & n.v.t. & n.v.t.\\
+48 &n.v.t.  & n.v.t. & n.v.t.\\
+49 & n.v.t. &ori\"{e}ntatie& F/J\\
+50 &  n.v.t.&  ori\"{e}ntatie&F/j \\
+51 &  1     &videometing  &Fidon \\
+52 &  3     &dataverwerking  &Fidon \\
+1  &  3     &afronding  &Jorn \\
+2 &  $\frac{1}{6}$&printen  &Fidon \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{document}         

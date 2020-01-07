@@ -1,0 +1,21 @@
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[minor tick num=1,
+			xlabel=$t$ (\si{\second}),
+			ylabel=$y_f$ (\si{\meter})		
+			]
+\addplot[only marks,
+		 mark options={fill=gray,scale=1.0},
+		 mark=square*
+		 ] 
+		 table[x index=0, y index=1] {ValbewegingTable.csv};
+\addplot [black] gnuplot [raw gnuplot] { % "raw gnuplot" allows us to use arbitrary gnuplot commands
+            f(x) = a*x**2+1.8; % Define the function to fit
+            fit f(x) "ValbewegingTable.csv" u 1:2 via a; % Select the file, the columns (indexing starts at 1) and the variables
+            plot[x=0:0.6] f(x) wl; % Specify the range to plot
+    };
+\end{axis}
+\end{tikzpicture}
+\captionbelow{De grafiek met $y_f$ uitgezet tegen $t$. Een kwadratische verband bestaat tussen de de verplaatsing en tijd.}
+\label{fig:kwadraat}
+\end{figure}

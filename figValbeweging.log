@@ -1,0 +1,1111 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.1)  15 NOV 2018 19:50
+entering extended mode
+**./figValbeweging.tex
+(figValbeweging.tex
+LaTeX2e <2018-04-01> patch level 5
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@fileswith@pti@ns has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+standalone{\@nil }\ifx \reserved@a \@nnil \expandafter \@gobble \else \ETC.
+! Paragraph ended before \@fileswith@pti@ns was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\get@external@font ...nt \@empty \edef \font@info 
+                                                  {\expandafter \expandafter...
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\try@size@range ...tract@rangefontinfo \font@info 
+                                                  <-*>\@nil <\@nnil 
+l.2 \usepackage
+               {tikz,graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@font@info has an extra }.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@font@info was complete.
+<to be read again> 
+                   \par 
+l.2 \usepackage
+               {tikz,graphicx}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\get@external@font ->\let \external@font 
+                                         \@empty \edef \font@info {\expandaf...
+l.2 \usepackage
+               {tikz,graphicx}
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 11 strings out of 492970
+ 228 string characters out of 3127482
+ 67119 words of memory out of 3000000
+ 3984 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 268i,0n,323p,69b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,42 @@
+\documentclass[•]{standalone}
+\usepackage{tikz,graphicx}
+\begin{document}
+%% Methode Tikzpicture
+\begin{figure}[t]
+\centering
+\resizebox{.75\textwidth}{!}{%
+\begin{tikzpicture}[grid/.style={very thin,gray}, xstep=.5cm, ystep=.5cm]
+%\draw[grid] (0,0) grid (10,10);
+%	\foreach \x in {0,0.5,...,10}
+%	\node[anchor=north] at (\x,0) {\x};
+%	\foreach \y in {0,0.5,...,10}
+%	\node[anchor=east] at (0,\y) {\y};	
+\fill[pattern=north west lines] (0,0) rectangle (10,1) node[anchor=south] {bodem};
+\draw[ultra thick] (0,1) -- (10,1);
+\filldraw[fill=gray, very thick] (5,10) circle[radius=.75cm] node[anchor=south west] {$z$};
+\fill (5,10) circle[radius=.075cm];
+\draw[very thick,-|] (1.5,1) --(1.5,10) node[anchor=east] {$y_i=\SI{1.80}{\meter}$};
+\foreach \y in {2,4,6,8}
+\draw[thick] (1.4cm,\y) -- (1.6,\y);
+\foreach \y in {2,4,6,8}
+\filldraw[fill=gray, very thick, dashed, opacity=0.7] (5,\y) circle[radius=.75cm]; 
+\foreach \y in {2,4,6,8}
+\fill (5,\y) circle[radius=.075cm];
+\draw[->,>=stealth,thick] (5,8) -- (5,7.75) node[anchor= west] {$\vec{v_1}$};
+\draw[->,>=stealth,thick] (5,6) -- (5,5.5) node[anchor=west] {$\vec{v_2}$};
+\draw[->,>=stealth,thick] (5,4) -- (5,3.25) node[anchor= west] {$\vec{v_3}$};
+\draw[->,>=stealth,thick] (5,2) --  node[anchor=west] {$\vec{v}_4$} (5,1);
+\node at (8,10) {$t_0$};
+\node at (8,8) {$t_1$};
+\node at (8,6) {$t_2$};
+\node at (8,4) {$t_3$};
+\node at (8,2) {$t_4$};
+\foreach \y in {2,4,6,8,10}
+\draw[thick,dashed] (1.5,\y)-- (5,\y);
+\end{tikzpicture}
+}
+\captionbelowof{figure}{Een schematische weergave van metingsprincipe. Op een beginhoogte $y_i=\SI{1,80}{\meter}$ werd op gelijke tijdsintervallen de eindhoogte $y_f$ en $v$ bepaald.}
+\label{fig:Valbeweging}
+\end{figure}
+%%
+\end{document}
