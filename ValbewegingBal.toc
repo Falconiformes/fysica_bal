@@ -1,11 +1,11 @@
-\select@language {dutch}
-\contentsline {section}{\nameref {sec:Inleiding}}{3}{section*.2}
-\contentsline {section}{\numberline {1}Theorie}{3}{section.1}
-\contentsline {section}{\numberline {2}Methode}{4}{section.2}
-\contentsline {section}{\numberline {3}Resultaten \& Discussie}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Resultaten}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Discussie}{6}{subsection.3.2}
-\contentsline {section}{\numberline {4}Conclusie}{7}{section.4}
-\contentsline {section}{\numberline {5}Reflectie}{7}{section.5}
-\contentsline {section}{\numberline {A}Tabellen}{8}{appendix.A}
-\contentsline {section}{\numberline {B}Logboek}{9}{appendix.B}
+\babel@toc {dutch}{}
+\contentsline {section}{\nameref {sec:Inleiding}}{3}{section*.2}% 
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}% 
+\contentsline {section}{\numberline {2}Methode}{4}{section.2}% 
+\contentsline {section}{\numberline {3}Resultaten \& Discussie}{5}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Resultaten}{5}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Discussie}{6}{subsection.3.2}% 
+\contentsline {section}{\numberline {4}Conclusie}{7}{section.4}% 
+\contentsline {section}{\numberline {5}Reflectie}{7}{section.5}% 
+\contentsline {section}{\numberline {A}Tabellen}{8}{appendix.A}% 
+\contentsline {section}{\numberline {B}Logboek}{9}{appendix.B}% 
