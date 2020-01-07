@@ -1,4 +1,3 @@
-\newcommand{\magic}{[Hier gaat de magic gebeuren]}
 %Belangrijke packages voor Schrijven van acenten, trema
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -8,9 +7,6 @@
 \addtokomafont{captionlabel}{\bfseries}
 %% Eind TypografiePackages
 
-%Een package die mogeljk maakt bestanden uit subdirectories toe te voegen in het document. \subimport{Grafieken/} is een relatieve pad en \import{/c:users/Edon/documenten/...} is absoluut.
-\usepackage{import}
-%%
 
 %Taal
 \usepackage[dutch]{babel} %Nederlandse Taal
@@ -24,24 +20,11 @@
 \numberwithin{equation}{section}%Wiskundige formules worden gevolgd door een eerste getal die de behoring van welke sectie aangeeft.
 %% Eind WiskundePackages
 
-%%%%Herdefiniëring van de wortel-teken
-\usepackage{letltxmacro}
-\makeatletter
-\let\oldr@@t\r@@t
-\def\r@@t#1#2{%
-\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
-\advance\dimen0-0.2\ht0
-\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
-{\box0\lower0.4pt\box2}}
-\LetLtxMacro{\oldsqrt}{\sqrt}
-\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2} }
-\makeatother
-%%%%
 
 %%%%% Graphics
 \usepackage[table]{xcolor}%%Kleurgeving van columnen, rijen en cellen in tabellen. 
 \usepackage{graphicx}%%Externe Foto toevoeger
-\graphicspath{{./Graphics/}}%%Geeft submap van Graphics aan, voor geordend werken.
+%\graphicspath{{./Graphics/}}%%Geeft submap van Graphics aan, voor geordend werken.
 \usepackage{tikz}%% Intern Graphic Maker
 \usetikzlibrary{patterns}
 \usetikzlibrary{positioning,calc}

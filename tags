@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+Conclusie	ValbewegingBal.tex	/^\\section{Conclusie}$/;"	s
+Discussie	ValbewegingBal.tex	/^\\subsection{Discussie}$/;"	u	section:Resultaten \\& Discussie
+Inleiding	ValbewegingBal.tex	/^\\section*{Inleiding}$/;"	s
+Logboek	ValbewegingBal.tex	/^\\section{Logboek}$/;"	s
+Methode	ValbewegingBal.tex	/^\\section{Methode}$/;"	s
+Reflectie	ValbewegingBal.tex	/^\\section{Reflectie}	$/;"	s
+Resultaten	ValbewegingBal.tex	/^\\subsection{Resultaten}$/;"	u	section:Resultaten \\& Discussie
+Resultaten \\& Discussie	ValbewegingBal.tex	/^\\section{Resultaten \\& Discussie}$/;"	s
+Tabellen	ValbewegingBal.tex	/^\\section{Tabellen} $/;"	s
+Theorie	ValbewegingBal.tex	/^\\section{Theorie}$/;"	s
+eq:1Integratie	ValbewegingBal.tex	/^\\begin{equation}\\label{eq:1Integratie}$/;"	l
+eq:2Integratie	ValbewegingBal.tex	/^\\begin{equation}\\label{eq:2Integratie}$/;"	l
+eq:Acceleratie	ValbewegingBal.tex	/^\\begin{equation}\\label{eq:Acceleratie}$/;"	l
+eq:Newton	ValbewegingBal.tex	/^\\begin{equation}\\label{eq:Newton}$/;"	l
+eq:RelatieveFout	ValbewegingBal.tex	/^\\begin{equation}\\label{eq:RelatieveFout}$/;"	l
+fig:Valbeweging	figValbeweging.tex	/^\\label{fig:Valbeweging}$/;"	l
+fig:kwadraat	Grafiekvalbeweging1.tex	/^\\label{fig:kwadraat}$/;"	l
+fig:kwadraat	ValbewegingBal.tex	/^\\label{fig:kwadraat}$/;"	l
+fig:liniear	ValbewegingBal.tex	/^\\label{fig:liniear}$/;"	l
+sec:Inleiding	ValbewegingBal.tex	/^\\label{sec:Inleiding} $/;"	l
+tab:Kwadraat	ValbewegingBal.tex	/^\\label{tab:Kwadraat}   $/;"	l
