@@ -1,4 +1,4 @@
-\documentclass[•]{scrartcl}
+\documentclass{scrartcl}
 %% Alle benodigde pakketjes
 \input{Preamble_Article.tex}
 %
@@ -8,10 +8,9 @@
 %
 \tableofcontents
 \newpage
-\section*{Inleiding}
-\label{sec:Inleiding} 
+\section*{Inleiding}\label{sec:Inleiding}
 \addcontentsline{toc}{section}{\nameref{sec:Inleiding}}
-In de Middeleeuwen waren kastelen essentieel voor de beheersing van het landbouwgrond. Het behouden van de kastelen was dus van een heel groot belang. Daarom bezaten kastelen allerlei verdedingswerktuigen. E\'{e}n van deze werktuigen is heet kokend olie. De heet kokende olie werd vanaf de muren van de kasteel op de belegers naar beneden gegooid. Hoeveel tijd zouden de belegers hebben om te ontsnappen van de olie? Beantwoording vereist een analyse van de valbeweging van de olie. Deze analyse is ook afleidbaar door de valbeweging van een ander object te onderzoeken.
+In de Middeleeuwen waren kastelen essentieel voor de beheersing van de landbouwgrond. Het behouden van de kastelen was dus van heel groot belang. Daarom bezaten kastelen allerlei verdedingswerktuigen. E\'{e}n van deze werktuigen is hete kokend olie. De hete kokende olie werd vanaf de muren van het kasteel op de belegers naar beneden gegooid. Hoeveel tijd zouden de belegers hebben om te ontsnappen van de olie? Beantwoording vereist een analyse van de valbeweging van de olie. Deze analyse is ook afleidbaar door de valbeweging van een ander object te onderzoeken.
 \par
 In deze proef werd de valbeweging van een bal geanalyseerd met behulp van een videometing en \textit{Coach7}. De beantwoording van de volgende vragen was beoogd:
 \begin{description}
@@ -35,7 +34,7 @@ Als $\vec{F_}{l} \approx \SI{0}{\newton}$ dan geldt voor $\vec{a}$ bij benaderin
 \vec{a}\approx \vec{g}\mathrm{.}
 \end{equation*}
 %%
-In \cref{eq:1Integratie} wordt $a$ geïntegreerd naar de tijd ($t$) gemeten in secondes (\si{\second}).\footnote{Integreren is de inverse van differenteren, zoals delen de inverse is van vermenigvuldigen.} Deze integratie levert een vergelijking op van de snelheid $(v)$ in \si{\meter\per\second} als functie van $t$. Deze vergelijking beschrijft een liniear verband tussen $v$ en $t$. 
+In \cref{eq:1Integratie} wordt $a$ geïntegreerd naar de tijd ($t$) gemeten in secondes (\si{\second}).\footnote{Integreren is de inverse van differenteren, zoals delen de inverse is van vermenigvuldigen.} Deze integratie levert een vergelijking op van de snelheid $(v)$ in \si{\meter\per\second} als functie van $t$. Deze vergelijking beschrijft een liniear verband tussen $v$ en $t$.
 %% Eerste integratie
 \begin{equation}\label{eq:1Integratie}
 v(t)=\int g dt= gt + v_i
@@ -62,25 +61,24 @@ Op basis van de bovengenoemde theorie waren de volgende hypotheses opgesteld, in
 \end{itemize}
 %
 \section{Methode}
-E\'{e}n individu hield een lichte voetbal vast op een hoogte $(y_i)$ van \SI{1.80}{\meter} in een windstille ruimte (\cref{fig:Valbeweging}). Deze hoogte werd gemeten met een meetlint met een \SI{+-1}{\centi\meter} precisie. Een andere individu nam de valbeweging op met een moderne smartphone. In verband met overschakeltijd van fotografie- naar opname-mode was de opname gestart voor de val. Dit deel van de opname en de stuiterbeweging aan het eind van de opname waren verwijderd met behulp van \textit{Windows Movie Maker}. De resulterende opname werd ingevoerd in \textit{Coach7}. Met behulp van de videometingcapaciteiten van \textit{Coach7} was $y$ en $v$ bepaald op \num{17} verschillende tijdstippen. De tijdsinterval was constant gehouden bij de \num{17} verschillende tijdstippen. 
+E\'{e}n individu hield een lichte voetbal vast op een hoogte $(y_i)$ van \SI{1.80}{\meter} in een windstille ruimte (\cref{fig:Valbeweging}). Deze hoogte werd gemeten met een meetlint met een \SI{+-1}{\centi\meter} precisie. Een andere individu nam de valbeweging op met een moderne smartphone. In verband met overschakeltijd van fotografie- naar opname-mode was de opname gestart voor de val. Dit deel van de opname en de stuiterbeweging aan het eind van de opname waren verwijderd met behulp van \textit{Windows Movie Maker}. De resulterende opname werd ingevoerd in \textit{Coach7}. Met behulp van de videometingcapaciteiten van \textit{Coach7} was $y$ en $v$ bepaald op \num{17} verschillende tijdstippen. De tijdsinterval was constant gehouden bij de \num{17} verschillende tijdstippen.
 \input{figValbeweging.tex}
 %
 \newpage
 \section{Resultaten \& Discussie}
 \subsection{Resultaten}
-Bij de uitvoering van de beschreven methode was de data in \cref{tab:Kwadraat} verkregen. De data vertoonde een kwadratisch verband tussen $y$ en $t$.  Deze vondst was in overeenkomtst met de hypotheses.        
+Bij de uitvoering van de beschreven methode was de data in \cref{tab:Kwadraat} verkregen. De data vertoonde een kwadratisch verband tussen $y$ en $t$.  Deze vondst was in overeenkomtst met de hypotheses.
 De kwadratische verband tussen $y_f$ en $t$ wordt bevestigd en gevisualiseerd in \cref{fig:kwadraat}.
-\begin{figure}
+\begin{figure}\label{fig:kwadraat}
 \centering
 \includegraphics[scale=1]{Grafiekvalbeweging.pdf}
 \captionbelowof{figure}{De grafiek met $y_f$ uitgezet tegen $t$ van het experiment en de theorie. Een kwadratische verband bestaat tussen de de verplaatsing en tijd.}
-\label{fig:kwadraat}
-\end{figure} 
-Verder was gebleken dat een linieare verband bestaat tussen $v$ en $t$. De linieare verband is weergeven in \cref{fig:liniear} . De richtingsco\"{e}ffici\"{e}nt, oftewel $\vec{a}$, wordt weergeven in \cref{eq:Acceleratie}:
+\end{figure}
+Verder was gebleken dat een linieare verband bestaat tussen $v$ en $t$. De linieare verband is weergeven in \cref{fig:liniear}. De richtingsco\"{e}ffici\"{e}nt, oftewel $\vec{a}$, wordt weergeven in \cref{eq:Acceleratie}:
 %%
 \begin{equation}\label{eq:Acceleratie}
 \vec{a}=\frac{\Delta \vec{v}}{\Delta t}=\frac{\SI{0}{\meter\per\second}-\SI{-6}{\meter\per\second}}{\SI{0}{\second}-\SI{0.6}{\second}}=\SI{-10}{\meter\per\second\squared}\mathrm{.}
-\end{equation}	
+\end{equation}
 %%
 \begin{figure}[t]
 \centering
@@ -99,12 +97,12 @@ De gestelde hypotheses waren positief. De valbeweging was een eenparige versneld
 Een hogere $g$ zou betekenen dat een object sneller valt onder dezelfde omstandigheden in de ruimte waar de proef is afgenomen dan elders op de wereld. In \cref{fig:kwadraat} neemt $\frac{d^2y_f}{dt^2}$ toe bij latere tijdstippen. Dit is te verwijten aan het gebrek van stroboscopische capaciteit op de smartphone. Hierdoor was het beeld van de bewegende bal wazig op latere tijdstippen. Dit resulteerde in onnauwkeurigheid in de positie van het zwaartepunt van de bal. Als gevolg werd het zwaartepunt repeterend te laag gekozen op latere tijdstippen in \textit{Coach7}. Deze systematische fouten leiden tot een hogere $\frac{d^2y_f}{dt^2}$ en dus hogere $g$.
 %
 \section{Conclusie}
-Concluderend was de valbeweging van de bal geanalyseerd met een smartphone en de videometingcapaciteiten van \textit{Coach7}. De valbeweging was eenparig versneld met een kwadratisch verband tussen $y_f$ en $t$ en een liniear verband tussen $v$ en $t$. 
-\section{Reflectie}	
+Concluderend was de valbeweging van de bal geanalyseerd met een smartphone en de videometingcapaciteiten van \textit{Coach7}. De valbeweging was eenparig versneld met een kwadratisch verband tussen $y_f$ en $t$ en een liniear verband tussen $v$ en $t$.
+\section{Reflectie}
 We zijn tevreden met de resultaten van ons uitgevoerde onderzoek. Daarnaast zijn we trots op ons verslag. De gegevens zijn op een professionele manier in het verslag verwerkt met een mooie strakke lay-out. We zijn minder tevreden met de meetfouten die zijn gemaakt. Ondanks dat we theorie goed hebben toegepast. We hebben in deze PO geleerd om onze kennis in een praktische opdracht toe te passen, waardoor we de onderzoekverslagen hebben kunnen beantwoorden.
 \newpage
 \appendix
-\section{Tabellen} 
+\section{Tabellen}
 \begin{center}
 \captionaboveof{table}{De \num{17} verschillende tijdstippen met daarbij horende hoogte en snelheid. De 13\textsuperscript{de} en 14\textsuperscript{de} meting, de grijs gekleurde cellen, bevatten een meetfout.}
 \begin{tabular}{*{4}{S[table-format=1.2]}}
@@ -130,7 +128,7 @@ We zijn tevreden met de resultaten van ons uitgevoerde onderzoek. Daarnaast zijn
 17& 0.53 & 0.34&-5.79 \\
 \bottomrule
 \end{tabular}
-\label{tab:Kwadraat}   
+\label{tab:Kwadraat}
 \end{center}
 %
 \newpage
@@ -153,4 +151,4 @@ Week van uitvoering & Tijd (\si{\hour})& Activiteit & Uitvoerder\\
 \bottomrule
 \end{tabular}
 \end{center}
-\end{document}         
+\end{document}
